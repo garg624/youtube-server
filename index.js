@@ -34,7 +34,7 @@ app.listen(PORT,()=>{
 })
 
 
-const DB_URL = "mongodb://localhost:27017"
+const DB_URL = "mongodb+srv://gargayush970:Duva4fd5osm57jKU@cluster0.l9jreyo.mongodb.net/"
 mongoose.connect(DB_URL,{useNewUrlParser: true,useUnifiedTopology: true}).then(()=>{
     console.log("MongoDB database connected")
 }).catch((error)=>{
